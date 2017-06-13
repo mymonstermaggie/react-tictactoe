@@ -1,0 +1,20 @@
+.board {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    outline: 3px solid hotpink;
+    flex-direction: column;
+}
+.row {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-direction: row;
+}
+.square {
+    color: lightseagreen;
+    width: 33.3%;
+    height: 100%;
+    font: 150px monospace;
+    outline: 1px dashed hotpink;
+}
